@@ -1,0 +1,179 @@
+
+/**/
+body{
+  padding: 0.5% 0.5%;
+}
+
+.col-lg-6 h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:'Montserrat-Bold', sans-serif;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+p{
+  color:grey;
+}
+
+.col-lg-4 h3{
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+#title{
+  background-color: #ff4c68;
+  color:white;
+}
+
+.container-fluid{
+  padding: 3% 12% 5%;
+}
+.nav-align{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: lighter;
+}
+.download-buttons{
+  margin: 5% 3% 5% 1%;
+}
+
+.phn-image{
+  width:60%;
+  transform:rotate(25deg);
+  position:absolute;
+  right: 30%;
+}
+@media (max-width:1028px){
+  .phn-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+
+
+}
+
+#features{
+  background-color: #fff;
+
+  position: relative;
+}
+
+.feature-item{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size:1.5rem;
+  padding: 2% 15%;
+  text-align: center;
+}
+.feature-details{
+  color: #8f8f8f;
+  padding: 0% 25%;
+  text-align: center;
+}
+.icon-align{
+  color:#ef8172;
+  padding: 2% 40%;
+  font-size:5rem;
+}
+
+.col-lg-4{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.heart-beat:hover{
+  animation: beat .25s infinite alternate;
+}
+
+
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+#testimonials{
+padding: 7% 15%;
+text-align: center;
+background-color: #ff4c68;
+color: white;
+
+}
+
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+#press{
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+.press-img{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.testimonial-image{
+  border-radius: 50%;
+  width: 10%;
+}
+.card-1{
+  max-width: 50%;
+}
+.card-2{
+  max-width: 50%;
+}
+.card-3{
+  max-width: 100%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+
+  color:#fff;
+  background-color: #ff4c68;
+  padding: 5% 15% 5%;
+  text-align: center;
+
+}
+
+#footer{
+  text-align: center;
+  padding-top:3%;
+}
+.footer-icon{
+  padding-right: 1%;
+  padding-bottom: 2%;
+}
